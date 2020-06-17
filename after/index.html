@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hey folks</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  </head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">       <!--for logo-->
+					<a href="index.html" class="pull-left visible-lg visible-md">
+						<div id="logo-img" alt="Logo Image"></div>
+					
+					</a>
+
+					<div class="navbar-brand">       <!--for headiing-->
+						<a href="index.html"><h1>Interacting with Robots</h1></a>
+						<p><span>~by Ritisha Gupta</span></p>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li class="visible-xs"><a href="index.html" class="active"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+						<li><a href="myself.html"><span class="glyphicon glyphicon-exclamation-sign"></span><br class="hidden-xs">About</a></li>
+						<li><a href="experience.html"><span class="glyphicon glyphicon-leaf"></span><br class="hidden-xs">Experience</a></li>
+						<li><a href="#contact"><span class="glyphicon glyphicon-link"></span><br class="hidden-xs">Contact</a></li>
+						<li class="hidden-xs" id="phone"><a href="tel:855-552-****"><span>+91 855-553-****</span><div><span class="glyphicon glyphicon-earphone"></span>Call</div></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="button" class="visible-xs text-center">    
+		<a class="btn btn-default btn-lg" href="tel:855-552-****"><span class="glyphicon glyphicon-earphone"></span>Call</a>
+	</div>
+
+	<div class="container" id="main-content">
+		<div class="jumbtron">
+		   <img src="images/bg_768.jpeg" class="img-responsive visible-xs">
+		</div>
+
+		<div id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="experience.html"><div id="exp-title"><span>Experience</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="photos.html" target="_blank"><div id="photo-title"><span>Photos</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/GZZTakiScy2jNWJVA" target="_blank"><div id="map-title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14311.217575165905!2d73.01762578592758!3d26.268011135849427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c43037064f7%3A0xe8a6913e700f1eea!2sM.%20B.%20M.%20Engineering%20College!5e0!3m2!1sen!2sin!4v1592132389963!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><span>Map</span></div></a>
+			</div>
+
+		</div><!-- End od home tile -->
+	</div><!-- End of main content -->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="contact" class="col-sm-4">
+					<span>Contact</span><br>
+					<span class="glyphicon glyphicon-comment" id="icon"></span>
+					<a href="https://www.linkedin.com/in/ritisha-gupta-b507531a3/" target="_blank" title="Profile">Linkedin Profile</a><br>
+					<span class="glyphicon glyphicon-pencil" id="icon"></span>
+					<a href="mailto: ritishagupta257@gmail.com">Mail to publisher</a><br>
+					<span class="glyphicon glyphicon-envelope" id="icon"></span>
+					ritishagupta257@gmail.com<br>	
+					<hr class="visible-xs">				
+				</section>
+
+				<section id="add" class="col-sm-4">
+					<span>College</span><br>
+					M.B.M. Engineering College<br>
+					Jodhpur, Rajasthan<br>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="quote" class="col-sm-4">
+					<p>“If you don't want a generation of robots, then you nood to think on it”</p>
+					<p>"I ultimately got into robotics because for me, it was the best way to study intelligence."</p>
+				</section>
+			</div>
+			<div id="btn" class="visible-xs">    
+				<a class="btn btn-default btn-lg" href="#header-nav"><span class="glyphicon glyphicon-arrow-up"></span>Back to Top</a>
+			</div>
+		</div><!--End of container-->
+	</footer>
+
+
+	
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

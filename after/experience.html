@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hey folks</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  </head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">       <!--for logo-->
+					<a href="index.html" class="pull-left visible-lg visible-md">
+						<div id="logo-img" alt="Logo Image"></div>
+					
+					</a>
+
+					<div class="navbar-brand">       <!--for headiing-->
+						<a href="index.html"><h1>Interacting with Robots</h1></a>
+						<p><span>~by Ritisha Gupta</span></p>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li class="visible-xs"><a href="index.html" class="active"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+						<li><a href="myself.html"><span class="glyphicon glyphicon-exclamation-sign"></span><br class="hidden-xs">About</a></li>
+						<li><a href="experience.html" class="active"><span class="glyphicon glyphicon-leaf"></span><br class="hidden-xs">Experience</a></li>
+						<li><a href="#contact"><span class="glyphicon glyphicon-link"></span><br class="hidden-xs">Contact</a></li>
+						<li class="hidden-xs" id="phone"><a href="tel:855-552-****"><span>+91 855-553-****</span><div><span class="glyphicon glyphicon-earphone"></span>Call</div></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="button" class="visible-xs text-center">    
+		<a class="btn btn-default btn-lg" href="tel:855-552-****"><span class="glyphicon glyphicon-earphone"></span>Call</a>
+	</div>
+
+	<div class="container" id="main-content">
+		<h2 class="text-center" id="h2">Happy Satisfaction</h2>
+		<div class="text-center">"Nothing ever becomes Real till it is Experienced."</div>
+		<section id="para">
+		<p> Well, we have seen the transition of technology that has emerged since 1980’s. Technology has emerged from simple stone tools to the complex genetic engineering and information technology. Earlier it was a question that, Can something be built that is smart enough to follow our actual instructions without messing up things, Isn’t it? Then comes our hard work, our invention, our companion, ROBOTS. Isn’t it interesting to look at how currently available robotics devices can be used to clean the house?</p>
+		<p>Well, such similar transition has also occurred in my life, a journey that starts with a non-technical guy and ends being a technical one. Every boy starting his career as a Computer Science Engineer once dreamt of either being a hacker or interact with Robots. As a Normal person all we know is that how a Robot works but behind it’s working there is a whole new world that is unexpectedly awesome!! Just like a very normal kid, I also dreamt of a Robot and my dream came true when I attended a life changing Experience/workshop in my own institution.  I found it really insightful and interesting (as expected!!). It was even more engrossing than I imagined.</p>
+		<p>Before actually interacting with the new world of Robotics I just wanted to make a Line follower Robot myself because at that particular time it was hype for everyone. I was not known by the fact that It was just the beginning and there are a lot more things waiting for me, <span>"A great mix of learning and playing"</span> and that’s how my journey starts. </p>
+		<blockquote>"Since I am a baby in this arena, I would keep sharing my crawling experience as I believe there would be many who would be waiting to crawl!"</blockquote>
+		<p>We decided to use <span>ARDUINO BOARD</span> in order to start with the learning experience.  Why!! Because it is economical, easy & has its own IDE to let us write the code and upload to the board
+		Arduino is a simple micro-controller which is based on input output receiving unit. We can have it attached to any sensors, LEDs, switches, etc. Overall working with Arduino is a fun and for beginner’s, it is the best option I would say!!</p>
+		<p>In the entire workshop of 26 days, I myself found the Line Follower Robot as the most interesting one not only because I was starting with the robotics and it was my first time but also because I had put all my efforts to make it work. It is a mobile machine that can detect and follow the line drawn on the floor. Generally, the path is predefined and can be either visible like a black line on a white surface with a high contrasted colour or it can be invisible like a magnetic field. Therefore, the Robot should sense the line with its Infrared Ray (IR) sensors that are installed under the robot. These sensors send the input signals to the processor and the processor is going to decide the proper commands and then it sends them to the driver and thus the path will be followed by the line follower robot.</p>
+		<p>We were not supposed to stop here, we continued our journey to this new world by making another robot as our friend. Yes!! <span>SELF BALANCING ROBOT.</span> The motive of this Robot is to balance it on two wheels using Motors, Sensors, and Microprocessor. Although this was the second Robot we were working on but the experience with this was not that relieving, that it was with the first one because in making of this we primarily used several inbuilt libraries that were not known by us. By using the sets of results obtained by an Accelerometer and Gyroscope Sensor, we used motors to keep it in an upright position and stabilized it but one thing we learned while doing is <span>“With more Patience, we can achieve more accuracy”.</span> Overall it was tough but it has boosted our confidence to another level.</p>
+		<p>Now as we were equipped with two robots, and the passion for such victories was irresistible so we started dreaming of a robot that can fly and that leads us to our dream project, <span>"QUADCOPTER”.</span> A quadcopter, also called a quadrotor helicopter or drone is a multirotor helicopter that is lifted and propelled by four rotors. Quadcopters are different from normal flying helicopters. The Engineering and design used is different to an airplane. Before actually working on the real setup, we first practised flying it on a simulator. It is the propeller direction along with the drone’s motor rotation and speed, which is responsible for its flight. Four different propellers moving via different rotations generate thrust and that thrust helps it to fly. Mathematics is also used to calculate quadcopter motor thrust while aircraft aerodynamics is used for propeller design and the movement of air above, below and around the quadcopter.This is the master of Quadcopter, <span>The Drone Controller.</span>  As in the airplane, the pilot operates it from inside a cockpit. Similarly, we the pilot of the drone operates it with the remote control.</p>
+		<p>So it was overall an amazing experience, those 26 days were restless, we worked day and night to complete our projects to gain knowledge particularly related to hardware as much as we could. I would suggest everyone who is into the technological world, learn the working of a product, how the things are working in the background this will help you to enhance your skills to Innovate.</p>
+		<div class="text-right" style="margin-right: 45px;">Thank You.</div>
+		</section>
+	</div><!-- End of main content -->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="contact" class="col-sm-4">
+					<span>Contact</span><br>
+					<span class="glyphicon glyphicon-comment" id="icon"></span>
+					<a href="https://www.linkedin.com/in/ritisha-gupta-b507531a3/" target="_blank" title="Profile">Linkedin Profile</a><br>
+					<span class="glyphicon glyphicon-pencil" id="icon"></span>
+					<a href="mailto: ritishagupta257@gmail.com">Mail to publisher</a><br>
+					<span class="glyphicon glyphicon-envelope" id="icon"></span>
+					ritishagupta257@gmail.com<br>	
+					<hr class="visible-xs">				
+				</section>
+
+				<section id="add" class="col-sm-4">
+					<span>College</span><br>
+					M.B.M. Engineering College<br>
+					Jodhpur, Rajasthan<br>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="quote" class="col-sm-4">
+					<p>“If you don't want a generation of robots, then you nood to think on it”</p>
+					<p>"I ultimately got into robotics because for me, it was the best way to study intelligence."</p>
+				</section>
+			</div>
+			<div id="btn" class="visible-xs">    
+				<a class="btn btn-default btn-lg" href="#header-nav"><span class="glyphicon glyphicon-arrow-up"></span>Back to Top</a>
+			</div>
+		</div><!--End of container-->
+	</footer>
+
+
+	
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
